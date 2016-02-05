@@ -47,6 +47,7 @@
             text-transform: uppercase;
             &--big {
                 font-size: 30px;
+                font-weight: 400;
             }
             &--red {
                 color: #cf0000;
@@ -115,9 +116,16 @@
             float: right;
         }
     }
-    .content__section {
-        width: 455px;
-        float: left;
+    .content {
+        &__section {
+            width: 455px;
+            float: left;
+        }
+        &__aside {
+            width: 215px;
+            float: right;
+            padding-left: 25px;
+        }
     }
     .section-title {
         border-bottom: 3px solid #cf0000;
@@ -126,6 +134,7 @@
             float: left;
             font-family: bebas;
             font-size: 20px;
+            line-height: 38px;
             text-transform: uppercase;
         }
         &__more {
@@ -133,7 +142,7 @@
             height: 18px;
             display: block;
             float: right;
-            margin-top: 10px;
+            margin-top: 20px;
             background: #cf0000;
             font-family: 'Arial';
             font-size: 10px;
@@ -193,9 +202,39 @@
             margin-right: 0px;
         }
     }
-    .around-the-world,
-    .latest-articles,
-    .gallery,
-    .tech-news {
+    //    .around-the-world,
+    //    .latest-articles,
+    //    .gallery,
+    //    .tech-news,
+    //    .from-the-desk {
+    //        padding-top: 25px;
+    //    }
+    section {
         padding-top: 25px;
+    }
+    .from-the-desk {
+        & .section-title__more {
+            float: left;
+        }
+        & .section-block {
+            width: 176px;
+            padding: 22px 0;
+            margin-right: 0px;
+            border-bottom: 1px dotted black;
+            &:first-child {
+                padding-top: 0px;
+            }
+            &:nth-child(3) {
+                padding-bottom: 0px;
+                border-bottom: none;
+            }
+        }
+    }
+    .text--colorRed {
+        color: #cf0000;
+    }
+    .editorial .section-block {
+        width: 176px;
+        padding-bottom: 10px;
+        margin-right: 0px;
     }

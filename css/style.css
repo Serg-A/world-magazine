@@ -1,4 +1,4 @@
-/* line 3, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+/* line 3, F:/Programm/Git/world-magazine/css/style.scss */
 *,
 *:after,
 *:before {
@@ -6,17 +6,17 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 8, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+/* line 8, F:/Programm/Git/world-magazine/css/style.scss */
 * {
   margin: 0;
   padding: 0; }
 
-/* line 13, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+/* line 13, F:/Programm/Git/world-magazine/css/style.scss */
 html,
 body {
   height: 100%; }
 
-/* line 16, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+/* line 16, F:/Programm/Git/world-magazine/css/style.scss */
 .clear::after {
   content: " ";
   clear: both;
@@ -26,7 +26,7 @@ body {
   font-family: bebas;
   src: url(../fonts/Bebas.ttf); }
 
-/* line 25, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+/* line 25, F:/Programm/Git/world-magazine/css/style.scss */
 .wrapper {
   background-image: url("../images/bg.png"), url(../images/bg_main.png);
   background-position: top, top;
@@ -34,14 +34,14 @@ body {
   background-repeat: no-repeat, repeat;
   padding-top: 45px; }
 
-/* line 33, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+/* line 33, F:/Programm/Git/world-magazine/css/style.scss */
 .container {
   width: 980px;
   margin: 0 auto;
   padding: 0 20px;
   background: white; }
 
-/* line 40, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+/* line 40, F:/Programm/Git/world-magazine/css/style.scss */
 .header__logo {
   width: 300px;
   height: 95px;
@@ -50,25 +50,26 @@ body {
   font-family: 'Georgia';
   font-size: 15px;
   text-transform: uppercase; }
-  /* line 48, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+  /* line 48, F:/Programm/Git/world-magazine/css/style.scss */
   .header__logo--big {
-    font-size: 30px; }
-  /* line 51, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+    font-size: 30px;
+    font-weight: 400; }
+  /* line 52, F:/Programm/Git/world-magazine/css/style.scss */
   .header__logo--red {
     color: #cf0000; }
 
-/* line 55, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+/* line 56, F:/Programm/Git/world-magazine/css/style.scss */
 .header__menu {
   float: left;
   padding: 58px 0 0 40px; }
 
-/* line 59, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+/* line 60, F:/Programm/Git/world-magazine/css/style.scss */
 .header__rside {
   width: 260px;
   height: 95px;
   float: right; }
 
-/* line 64, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+/* line 65, F:/Programm/Git/world-magazine/css/style.scss */
 .header__categories {
   width: 940px;
   height: 45px;
@@ -77,77 +78,84 @@ body {
   font-family: bebas;
   text-align: center; }
 
-/* line 73, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+/* line 74, F:/Programm/Git/world-magazine/css/style.scss */
 .main-menu {
   float: right;
   list-style: none;
   font-family: Arial;
   font-size: 12px; }
-  /* line 78, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+  /* line 79, F:/Programm/Git/world-magazine/css/style.scss */
   .main-menu__item {
     float: left;
     display: inline-block;
     margin-left: 10px; }
-  /* line 83, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+  /* line 84, F:/Programm/Git/world-magazine/css/style.scss */
   .main-menu__link {
     text-decoration: none;
     color: #cf0000; }
 
-/* line 88, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+/* line 89, F:/Programm/Git/world-magazine/css/style.scss */
 .categories-menu {
   list-style: none;
   padding: 12px 0 0 15px; }
-  /* line 91, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+  /* line 92, F:/Programm/Git/world-magazine/css/style.scss */
   .categories-menu__item {
     float: left;
     display: inline-block;
     padding: 0 15px; }
-  /* line 96, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+  /* line 97, F:/Programm/Git/world-magazine/css/style.scss */
   .categories-menu__link {
     text-decoration: none;
     color: white; }
 
-/* line 101, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+/* line 102, F:/Programm/Git/world-magazine/css/style.scss */
 .main__wrapper .container {
   padding-top: 5px; }
 
-/* line 105, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+/* line 106, F:/Programm/Git/world-magazine/css/style.scss */
 .magazine__slider {
   width: 670px;
   height: 315px;
   float: left;
   background: grey; }
 
-/* line 111, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+/* line 112, F:/Programm/Git/world-magazine/css/style.scss */
 .magazine__content {
   float: left; }
 
-/* line 114, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+/* line 115, F:/Programm/Git/world-magazine/css/style.scss */
 .magazine__aside {
   float: right; }
 
-/* line 118, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+/* line 120, F:/Programm/Git/world-magazine/css/style.scss */
 .content__section {
   width: 455px;
   float: left; }
 
-/* line 122, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+/* line 124, F:/Programm/Git/world-magazine/css/style.scss */
+.content__aside {
+  width: 215px;
+  float: right;
+  padding-left: 25px; }
+
+/* line 130, F:/Programm/Git/world-magazine/css/style.scss */
 .section-title {
   border-bottom: 3px solid #cf0000;
   margin-bottom: 15px; }
-  /* line 125, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+  /* line 133, F:/Programm/Git/world-magazine/css/style.scss */
   .section-title__text {
     float: left;
     font-family: bebas;
     font-size: 20px;
+    line-height: 38px;
     text-transform: uppercase; }
-  /* line 131, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+  /* line 140, F:/Programm/Git/world-magazine/css/style.scss */
   .section-title__more {
     width: 61px;
     height: 18px;
     display: block;
     float: right;
-    margin-top: 10px;
+    margin-top: 20px;
     background: #cf0000;
     font-family: 'Arial';
     font-size: 10px;
@@ -158,26 +166,26 @@ body {
     text-decoration: none;
     color: white; }
 
-/* line 148, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+/* line 157, F:/Programm/Git/world-magazine/css/style.scss */
 .section-block {
   width: 145px;
   float: left;
   margin-right: 10px;
   font-family: 'Arial'; }
-  /* line 153, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+  /* line 162, F:/Programm/Git/world-magazine/css/style.scss */
   .section-block:last-child {
     margin-right: 0px; }
-  /* line 156, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+  /* line 165, F:/Programm/Git/world-magazine/css/style.scss */
   .section-block__image {
     margin-bottom: 15px; }
-  /* line 159, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+  /* line 168, F:/Programm/Git/world-magazine/css/style.scss */
   .section-block__title {
     font-size: 12px;
     font-weight: bold; }
-  /* line 163, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+  /* line 172, F:/Programm/Git/world-magazine/css/style.scss */
   .section-block__text {
     font-size: 12px; }
-  /* line 166, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+  /* line 175, F:/Programm/Git/world-magazine/css/style.scss */
   .section-block__link {
     display: block;
     margin-top: 10px;
@@ -187,30 +195,55 @@ body {
     text-decoration: none;
     color: #cf0000; }
 
-/* line 178, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+/* line 187, F:/Programm/Git/world-magazine/css/style.scss */
 .gallery__image {
   float: left;
   margin: 5px; }
-  /* line 181, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+  /* line 190, F:/Programm/Git/world-magazine/css/style.scss */
   .gallery__image:nth-child(3n+1) {
     margin-left: 0px; }
-  /* line 184, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+  /* line 193, F:/Programm/Git/world-magazine/css/style.scss */
   .gallery__image:nth-child(3n+3) {
     margin-right: 0px; }
 
-/* line 189, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+/* line 198, F:/Programm/Git/world-magazine/css/style.scss */
 .section-block--bigSize {
   width: 220px;
   margin: 0 15px 25px 0; }
-  /* line 192, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
+  /* line 201, F:/Programm/Git/world-magazine/css/style.scss */
   .section-block--bigSize:nth-child(2n+1) {
     margin-right: 0px; }
 
-/* line 199, F:/Programm/HTML-CSS/world-magazine/css/style.scss */
-.around-the-world,
-.latest-articles,
-.gallery,
-.tech-news {
+/* line 212, F:/Programm/Git/world-magazine/css/style.scss */
+section {
   padding-top: 25px; }
+
+/* line 216, F:/Programm/Git/world-magazine/css/style.scss */
+.from-the-desk .section-title__more {
+  float: left; }
+
+/* line 219, F:/Programm/Git/world-magazine/css/style.scss */
+.from-the-desk .section-block {
+  width: 176px;
+  padding: 22px 0;
+  margin-right: 0px;
+  border-bottom: 1px dotted black; }
+  /* line 224, F:/Programm/Git/world-magazine/css/style.scss */
+  .from-the-desk .section-block:first-child {
+    padding-top: 0px; }
+  /* line 227, F:/Programm/Git/world-magazine/css/style.scss */
+  .from-the-desk .section-block:nth-child(3) {
+    padding-bottom: 0px;
+    border-bottom: none; }
+
+/* line 233, F:/Programm/Git/world-magazine/css/style.scss */
+.text--colorRed {
+  color: #cf0000; }
+
+/* line 236, F:/Programm/Git/world-magazine/css/style.scss */
+.editorial .section-block {
+  width: 176px;
+  padding-bottom: 10px;
+  margin-right: 0px; }
 
 /*# sourceMappingURL=style.css.map */
