@@ -1,0 +1,15 @@
+{
+  "sass.enabled": false,
+  "sass.compiler": "ruby",
+  "path": {
+    "css/style.scss": {
+      "sass.enabled": true,
+      "sass.options": {
+        "outputDir": "../css/",
+        "includePaths": null,
+        "sourceComments": true,
+        "outputStyle": "nested"
+      }
+    }
+  }
+}

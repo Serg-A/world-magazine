@@ -1,0 +1,201 @@
+    *,
+    *:after,
+    *:before {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    html,
+    body {
+        height: 100%;
+    }
+    .clear::after {
+        content: " ";
+        clear: both;
+        display: block;
+    }
+    @font-face {
+        font-family: bebas;
+        src: url(../fonts/Bebas.ttf);
+    }
+    .wrapper {
+        background-image: url("../images/bg.png"), url(../images/bg_main.png);
+        background-position: top, top;
+        background-size: 100%, auto;
+        background-repeat: no-repeat, repeat;
+        //    height: 100%;
+        padding-top: 45px;
+    }
+    .container {
+        width: 980px;
+        margin: 0 auto;
+        padding: 0 20px;
+        background: white;
+    }
+    .header {
+        &__logo {
+            width: 300px;
+            height: 95px;
+            float: left;
+            padding-top: 20px;
+            font-family: 'Georgia';
+            font-size: 15px;
+            text-transform: uppercase;
+            &--big {
+                font-size: 30px;
+            }
+            &--red {
+                color: #cf0000;
+            }
+        }
+        &__menu {
+            float: left;
+            padding: 58px 0 0 40px;
+        }
+        &__rside {
+            width: 260px;
+            height: 95px;
+            float: right;
+        }
+        &__categories {
+            width: 940px;
+            height: 45px;
+            float: left;
+            background-image: linear-gradient(to top, black 0%, #1b1d1e 100%);
+            font-family: bebas;
+            text-align: center;
+        }
+    }
+    .main-menu {
+        float: right;
+        list-style: none;
+        font-family: Arial;
+        font-size: 12px;
+        &__item {
+            float: left;
+            display: inline-block;
+            margin-left: 10px;
+        }
+        &__link {
+            text-decoration: none;
+            color: #cf0000;
+        }
+    }
+    .categories-menu {
+        list-style: none;
+        padding: 12px 0 0 15px;
+        &__item {
+            float: left;
+            display: inline-block;
+            padding: 0 15px;
+        }
+        &__link {
+            text-decoration: none;
+            color: white;
+        }
+    }
+    .main__wrapper .container {
+        padding-top: 5px;
+    }
+    .magazine {
+        &__slider {
+            width: 670px;
+            height: 315px;
+            float: left;
+            background: grey;
+        }
+        &__content {
+            float: left;
+        }
+        &__aside {
+            float: right;
+        }
+    }
+    .content__section {
+        width: 455px;
+        float: left;
+    }
+    .section-title {
+        border-bottom: 3px solid #cf0000;
+        margin-bottom: 15px;
+        &__text {
+            float: left;
+            font-family: bebas;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+        &__more {
+            width: 61px;
+            height: 18px;
+            display: block;
+            float: right;
+            margin-top: 10px;
+            background: #cf0000;
+            font-family: 'Arial';
+            font-size: 10px;
+            font-weight: bold;
+            line-height: 20px;
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: white;
+        }
+    }
+    .section-block {
+        width: 145px;
+        float: left;
+        margin-right: 10px;
+        font-family: 'Arial';
+        &:last-child {
+            margin-right: 0px;
+        }
+        &__image {
+            margin-bottom: 15px;
+        }
+        &__title {
+            font-size: 12px;
+            font-weight: bold;
+        }
+        &__text {
+            font-size: 12px;
+        }
+        &__link {
+            display: block;
+            margin-top: 10px;
+            font-size: 10px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #cf0000;
+        }
+    }
+    .gallery {
+        //        line-height: 0;
+        &__image {
+            float: left;
+            margin: 5px;
+            &:nth-child(3n+1) {
+                margin-left: 0px;
+            }
+            &:nth-child(3n+3) {
+                margin-right: 0px;
+            }
+        }
+    }
+    .section-block--bigSize {
+        width: 220px;
+        margin: 0 15px 25px 0;
+        &:nth-child(2n+1) {
+            margin-right: 0px;
+        }
+    }
+    .around-the-world,
+    .latest-articles,
+    .gallery,
+    .tech-news {
+        padding-top: 25px;
+    }
